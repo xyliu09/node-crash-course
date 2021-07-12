@@ -1,0 +1,27 @@
+{
+  "name": "hello-npm",
+  "version": "1.0.0",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "github:expressjs/express",
+    "mocha": "^9.0.2",
+    "openssl-nodejs": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "optionalDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha './test/**/*.spec.js'"
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "xinyuan liu",
+  "license": "ISC",
+  "description": ""
+}
